@@ -1,0 +1,43 @@
+git init;  //inicializa el git
+
+git add .;  //agrega los archivos dentro de la carpeta
+
+git status; //opcional, para verificar los archivos cargados
+
+//aparecen los archivos
+
+git config --global user.name nombre_usuario;
+
+git config --global user.email correo;
+
+git commit -m "first commit";     //commit == punto en la rama de desarrollo//rama==branch//
+
+git branch -M master; (el nombre depende de la rama donde va a empujar los cambios, siempre se deben trabajar en la misma rama )
+
+git remote add origin ...ruta del repositorio...;  //origin pasa a ser una variable que contiene la ruta del repositorio local del archivo
+
+git push origin master (master es la rama donde subiran los cambios)
+
+
+
+--------------------------------------
+
+git clone url_del_repositorio_a_clonar
+
+--------------------------------------
+
+git checkout -b nombre_de_la_rama;
+
+git add . ;
+
+git commit -m "mensaje commit";
+
+git push -u origin nombre_de_la_rama;
+
+
+----------------------------------------
+
+touch "nombredearchivo.tipodearchivo" (crea un archivo)
+
+
+
